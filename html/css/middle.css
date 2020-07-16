@@ -12,8 +12,17 @@
     border-radius: 5%;
     box-shadow: 10px 10px 70px #9c9c9c;
 }
+.article:hover{
+    transform: scale(1.05);
+    transition: all 0.1s linear;
+}
 .no1{
     background-image: url("../img/1.jpg");
+    background-repeat: no-repeat;
+
+}
+.no2{
+    background-image: url("../img/2.jpg");
     background-repeat: no-repeat;
 
 }
@@ -22,4 +31,14 @@
     padding-top: 50px;
     color: white;
     font-size: 50px;
+}
+.no3{
+    background-image: url("../img/3.jpg");
+    background-repeat: no-repeat;
+
+}
+.no4{
+    background-image: url("../img/4.jpg");
+    background-repeat: no-repeat;
+
 }
