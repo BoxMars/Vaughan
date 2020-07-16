@@ -1,0 +1,57 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 微软雅黑;
+}
+
+.center {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.head {
+    height: 140px;
+    padding: 30px;
+}
+
+.left {
+    display: inline-block;
+    margin-bottom: 10px;
+
+}
+
+.right {
+    position: absolute;
+    right: 140px;
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+    box-shadow: 10px 10px 70px #9c9c9c;
+    border-radius: 100%;
+
+}
+
+.logo {
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 100%;
+}
+
+.blog_title {
+    text-shadow: 5px 5px 200px #000000;
+}
+
+.blog_subtitle {
+    text-shadow: 5px 5px 200px #000000
+}
+
+.blog_subtitle_con {
+    color: gray;
+    margin-bottom: 20px;
+
+}

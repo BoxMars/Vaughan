@@ -1,0 +1,25 @@
+.middle{
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.article{
+    margin: 25px;
+    width: 650px;
+    height: 650px;
+    /*border: 4px solid black;*/
+    border-radius: 5%;
+    box-shadow: 10px 10px 70px #9c9c9c;
+}
+.no1{
+    background-image: url("../img/1.jpg");
+    background-repeat: no-repeat;
+
+}
+.article_title{
+    padding-left: 55px;
+    padding-top: 50px;
+    color: white;
+    font-size: 50px;
+}
