@@ -49,7 +49,7 @@ li:hover{
 .right {
     /*float: right;*/
     position: fixed;
-    bottom: 50%;
+    bottom: 60%;
     right: 8.75rem;
     width: 5rem;
     height: 5rem;

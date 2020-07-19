@@ -17,6 +17,15 @@
     transform: scale(1.05);
 
 }
+.article_title{
+    padding-left: 55px;
+    padding-top: 50px;
+    color: white;
+    font-size: 50px;
+}
+/*.article_title:checked{*/
+/*    transform: scale(1.5);*/
+/*}*/
 .no1{
     background-image: url("../img/1.jpg");
     background-repeat: no-repeat;
@@ -26,12 +35,6 @@
     background-image: url("../img/2.jpg");
     background-repeat: no-repeat;
 
-}
-.article_title{
-    padding-left: 55px;
-    padding-top: 50px;
-    color: white;
-    font-size: 50px;
 }
 .no3{
     background-image: url("../img/3.jpg");
