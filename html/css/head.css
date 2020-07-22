@@ -32,6 +32,7 @@ li:hover{
 }
 
 .head {
+    float: right;
     /*position: fixed;*/
     height: 8.75rem;
     padding: 1.875rem;
