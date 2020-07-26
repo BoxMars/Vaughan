@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block tittle %}    {% endblock %}</title>
+    <style>
+        body{
+            background-color: #000000;
+        }
+        .box_main{
+            margin: auto;
+            width: 500px;
+            height: 500px;
+            background-color: #000000;
+            border-radius: 5px;
+            box-shadow: ;
+        }
+    </style>
+</head>
+<body>
+    <div class="box_main">
+        {% block main %}
+        {% endblock %}
+    </div>
+</body>
+</html>
