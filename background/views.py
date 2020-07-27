@@ -8,6 +8,7 @@ def singup(request):
     isAdmin=False
     context = {
         'text' : 'SignUp',
+
     }
     if len(models.user.objects.all())==0:
         context['text']='SignUp As Admin'
