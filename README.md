@@ -1,5 +1,5 @@
 # Vaughan
-#### A blog bases on Django
+#### A blog based on Django
 ---
 # How to use?
 ```
