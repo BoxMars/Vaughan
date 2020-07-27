@@ -20,37 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c47b0a34-c5d9-4b13-8697-15ee69ff02d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../background/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../static/bootstrap/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../static/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../static/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../static/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../static/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../static/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../static/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../static/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../static/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../static/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../static/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../static/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../static/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../static/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../static/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../static/bootstrap/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../templates/background/singin_singup_base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../templates/background/singup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../background/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../background/migrations/0002_auto_20200727_1756.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../templates/background/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Vaughan/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Vaughan/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Vaughan/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Vaughan/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../background/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../background/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../background/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../background/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../blog/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/head.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/head.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../templates/background/singin_singup_base.html" beforeDir="false" afterPath="$PROJECT_DIR$/../templates/background/singin_singup_base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../templates/background/singup.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,6 +99,7 @@
       <workItem from="1595160822927" duration="971000" />
       <workItem from="1595219676401" duration="2265000" />
       <workItem from="1595779907226" duration="2914000" />
+      <workItem from="1595824163647" duration="7035000" />
     </task>
     <servers />
   </component>

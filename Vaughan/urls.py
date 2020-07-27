@@ -17,6 +17,6 @@ from django.urls import path
 from blog import views as blog_views
 from background import views as background_views
 urlpatterns = [
-    path('',blog_views.index)
-    path('/singup',background_views.)
+    path('',blog_views.index,name='index'),
+    path('signup/',background_views.singup,name='signup')
 ]

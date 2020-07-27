@@ -9,3 +9,4 @@ class user(models.Model):
     username = models.CharField(max_length=100,unique=True)
     email = models.EmailField(max_length=200,unique=True)
     password = models.CharField(max_length=255)
+    group=models.CharField(max_length=200,default='User')
