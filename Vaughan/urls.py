@@ -18,5 +18,6 @@ from blog import views as blog_views
 from background import views as background_views
 urlpatterns = [
     path('',blog_views.index,name='index'),
-    path('signup/',background_views.singup,name='signup')
+    path('signup/',background_views.singup,name='signup'),
+    path('signin/',background_views.signin,name='signin')
 ]
