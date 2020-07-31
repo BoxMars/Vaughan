@@ -26,24 +26,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="156dcc9e-52f5-4b36-84d9-aa0a8ae9b550" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/html/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/.idea/html.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/css/head.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/css/middle.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/img/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/img/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/img/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/img/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/img/logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/img/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/test.html" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/blog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/4.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,6 +131,7 @@
       <workItem from="1595997403933" duration="3020000" />
       <workItem from="1596191235377" duration="3023000" />
       <workItem from="1596195604805" duration="21000" />
+      <workItem from="1596195669455" duration="898000" />
     </task>
     <task id="LOCAL-00001" summary="background app and some view function">
       <created>1595777180956</created>
