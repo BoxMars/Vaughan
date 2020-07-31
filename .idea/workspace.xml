@@ -16,19 +16,52 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="156dcc9e-52f5-4b36-84d9-aa0a8ae9b550" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/background/signin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vaughan/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Vaughan/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vaughan/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Vaughan/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/background/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/background/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/html/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/blog/css/head.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/head.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/blog/css/middle.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/middle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/blog/img/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/blog/img/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/blog/img/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/blog/img/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/blog/img/logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/logo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/blog/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/blog/img/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/bootstrap/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/bootstrap/css/bootstrap-theme.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap-theme.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/bootstrap/css/bootstrap-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/bootstrap/css/bootstrap-theme.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/bootstrap/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/bootstrap/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/bootstrap/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/bootstrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/bootstrap/js/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/background/signin.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/background/signin.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/background/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/background/signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/background/singin_singup_base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/background/singin_singup_base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,8 +111,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Vaughan" />
+      <recent name="D:\Vaughan\blog\static" />
+      <recent name="D:\Vaughan\blog\static\css" />
+      <recent name="D:\Vaughan\static" />
       <recent name="D:\Vaughan\templates\background" />
-      <recent name="D:\Vaughan\templates" />
     </key>
   </component>
   <component name="RunManager">
@@ -121,7 +157,9 @@
       <workItem from="1595776402106" duration="19000" />
       <workItem from="1595776460777" duration="5396000" />
       <workItem from="1595824163856" duration="10477000" />
-      <workItem from="1595910742452" duration="1988000" />
+      <workItem from="1595910742452" duration="3509000" />
+      <workItem from="1595997403933" duration="3020000" />
+      <workItem from="1596191235377" duration="3023000" />
     </task>
     <task id="LOCAL-00001" summary="background app and some view function">
       <created>1595777180956</created>
@@ -137,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595847679159</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Finish signin.html and it view function">
+      <created>1595912904443</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1595912904443</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,7 +198,19 @@
         </entry>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -164,7 +221,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="background app and some view function" />
     <MESSAGE value="Finish signup.html and its view function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish signup.html and its view function" />
+    <MESSAGE value="Finish signin.html and it view function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish signin.html and it view function" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595824186927">
@@ -199,9 +257,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="662" y="74" width="596" height="891" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595826755036" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1595912204877">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1595997598488">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595912204877" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595997598488" />
   </component>
 </project>

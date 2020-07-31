@@ -5,6 +5,8 @@ from django.contrib.auth.hashers import make_password,check_password
 # Create your views here.
 preferred='qwer'
 
+
+
 def singup(request):
     is_admin=False
     context = {
@@ -27,7 +29,9 @@ def singup(request):
             else:
                 user.group='User'
             user.save()
-            return redirect(reverse('index'))
+            response = redirect(reverse('index'))
+            response.set_cookie(key='se', value=make_password(user.uuid), max_age=None)
+            return response
         else:
             context['text']='User Exited/Sign Up Again'
             return render(request, template_name='background/signup.html', context=context)
@@ -48,7 +52,10 @@ def signin(request):
             user=models.user.objects.filter(email=username_email)[0]
             password=user.password
             if check_password(request.POST.get('password'),password,preferred):
-                return redirect(reverse('index'))
+                response=redirect(reverse('index'))
+                response.set_cookie(key='user', value=user.uuid, max_age=None)
+                response.set_cookie(key='se', value=make_password(user.uuid, user.username), max_age=None)
+                return response
             else:
                 context['text']='Wrong Password'
                 return render(request, template_name='background/signin.html', context=context)
@@ -56,7 +63,10 @@ def signin(request):
             user=models.user.objects.filter(username=username_email)[0]
             password=user.password
             if check_password(request.POST.get('password'),password,preferred):
-                return redirect(reverse('index'))
+                response = redirect(reverse('index'))
+                response.set_cookie(key='user', value=user.uuid,max_age=None)
+                response.set_cookie(key='se', value=make_password(user.uuid, user.username),max_age=None)
+                return response
             else:
                 context['text']='Wrong Password'
                 return render(request, template_name='background/signin.html', context=context)

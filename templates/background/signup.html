@@ -6,6 +6,7 @@ SignUp
 {% block main %}
         <div class="title">SignUp</div>
         <form action="#" class="form" method="post">
+                {% csrf_token %}
                 <div class="text">Username</div>
                 <input type="text" class="input_text" name="username" autofocus required>
                 <div class="text">Email</div>

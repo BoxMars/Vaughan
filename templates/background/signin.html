@@ -6,6 +6,7 @@ SignIn
 {% block main %}
         <div class="title">SignIn</div>
         <form action="" class="form" method="post">
+                {% csrf_token %}
                 <div class="text">Username/Email</div>
                 <input type="text" class="input_text" name="username" autofocus required>
                 <input type="password" class="input_text" name="password"   required>
