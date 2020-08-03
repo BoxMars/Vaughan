@@ -26,12 +26,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="156dcc9e-52f5-4b36-84d9-aa0a8ae9b550" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/blog/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vaughan/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Vaughan/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,6 +129,8 @@
       <workItem from="1596191235377" duration="3023000" />
       <workItem from="1596195604805" duration="21000" />
       <workItem from="1596195669455" duration="898000" />
+      <workItem from="1596348180303" duration="746000" />
+      <workItem from="1596467312479" duration="1327000" />
     </task>
     <task id="LOCAL-00001" summary="background app and some view function">
       <created>1595777180956</created>
@@ -205,6 +204,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="695" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1595778197199" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596467890732">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596467890732" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1595841589044">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
