@@ -26,32 +26,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="156dcc9e-52f5-4b36-84d9-aa0a8ae9b550" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/assets/css/Article-List.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/css/Footer-Basic.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/css/Footer-Dark.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/css/Navigation-Clean.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/css/Navigation-with-Button.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/css/Navigation-with-Search.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/building.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/desk.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/assets/img/loft.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog/index.bsdesign" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vaughan/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Vaughan/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/background/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/background/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/bootstrap-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/bootstrap-theme.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/bootstrap-theme.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +129,7 @@
       <workItem from="1596195669455" duration="898000" />
       <workItem from="1596348180303" duration="746000" />
       <workItem from="1596467312479" duration="1327000" />
-      <workItem from="1596538596872" duration="2122000" />
+      <workItem from="1596538596872" duration="2435000" />
     </task>
     <task id="LOCAL-00001" summary="background app and some view function">
       <created>1595777180956</created>
