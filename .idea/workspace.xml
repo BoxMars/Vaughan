@@ -26,7 +26,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="156dcc9e-52f5-4b36-84d9-aa0a8ae9b550" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/background/migrations/0006_auto_20200805_1955.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/background/migrations/0007_tag.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/background/migrations/0008_auto_20200805_2215.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/background/migrations/0009_article_tag.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/background/migrations/0010_auto_20200805_2217.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/background/migrations/0011_auto_20200805_2219.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/14dad6a0-02ea-4534-87a7-eaac4cc2af7a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/14dad6a0-02ea-4534-87a7-eaac4cc2af7a.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vaughan/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Vaughan/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/background/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/background/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/background/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/background/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +143,9 @@
       <workItem from="1596195669455" duration="898000" />
       <workItem from="1596348180303" duration="746000" />
       <workItem from="1596467312479" duration="1327000" />
-      <workItem from="1596538596872" duration="2435000" />
+      <workItem from="1596538596872" duration="2868000" />
+      <workItem from="1596627203489" duration="2232000" />
+      <workItem from="1596636623995" duration="3808000" />
     </task>
     <task id="LOCAL-00001" summary="background app and some view function">
       <created>1595777180956</created>

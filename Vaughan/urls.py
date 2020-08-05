@@ -19,5 +19,6 @@ from background import views as background_views
 urlpatterns = [
     path('',blog_views.index,name='index'),
     path('signup/',background_views.singup,name='signup'),
-    path('signin/',background_views.signin,name='signin')
+    path('signin/',background_views.signin,name='signin'),
+    path('test/',background_views.test)
 ]

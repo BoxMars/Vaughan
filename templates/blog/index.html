@@ -41,6 +41,7 @@
                     class="btn btn-light action-button" role="button" href="#">Sign Up</a></span></div>
     </div>
 </nav>
+
 <div class="article-list">
     <div class="container">
         <div class="intro">
@@ -49,37 +50,36 @@
                 pellentesque ut laoreet vitae. </p>
         </div>
         <div class="row articles">
-            <div class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid"
-                                                                 src="{% static 'assets/img/desk.jpg' %}"></a>
-                <h3 class="name">Article Title</h3>
-                <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent
-                    aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a
+            {% for article in articles %}
+                 <div class="col-sm-6 col-md-4 item">
+                <a href="#"><img class="img-fluid" src="{% static 'assets/img/desk.jpg' %}"></a>
+                <h3 class="name">{{ article.title}}</h3>
+                <p class="author">{{ article.author}}</p>
+                <p class="description">{{ article.markdown }}</p><a
                         class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a></div>
-            <div
-                    class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid"
-                                                                    src="{% static 'assets/img/desk.jpg' %}"></a>
-                <h3 class="name">Article Title</h3>
-                <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent
-                    aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a
-                        class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a></div>
-            <div
-                    class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid"
-                                                                    src="{% static 'assets/img/desk.jpg' %}"></a>
-                <h3 class="name">Article Title</h3>
-                <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent
-                    aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a
-                        class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a></div>
-            <div
-                    class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid"
-                                                                    src="{% static 'assets/img/desk.jpg' %}"></a>
-                <h3 class="name">Article Title</h3>
-                <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent
-                    aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a
-                        class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a></div>
+            {% endfor %}
+
+
+{#            <div class="col-sm-6 col-md-4 item">#}
+{#                <a href="#"><img class="img-fluid" src="{% static 'assets/img/desk.jpg' %}"></a>#}
+{#                <h3 class="name">Article Title</h3>#}
+{#                <p class="author">Article Title</p>#}
+{#                <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent#}
+{#                    aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a#}
+{#                        class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a></div>#}
+{#            <div class="col-sm-6 col-md-4 item">#}
+{#                <a href="#"><img class="img-fluid" src="{% static 'assets/img/desk.jpg' %}"></a>#}
+{#                <h3 class="name">Article Title</h3>#}
+{#                <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent#}
+{#                    aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a#}
+{#                        class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a></div>#}
         </div>
     </div>
 </div>
-<div></div>
+
+
+
+
 <div class="text-capitalize border rounded footer-basic">
     <footer>
         <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i
@@ -97,6 +97,7 @@
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+
 </body>
 
 </html>

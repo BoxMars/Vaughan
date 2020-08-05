@@ -71,3 +71,11 @@ def signin(request):
                 context['text']='Wrong Password'
                 return render(request, template_name='background/signin.html', context=context)
 
+def test(request):
+    user=models.user.objects.filter(username='Box').first()
+    test_article=models.article()
+    test_article.title='test'
+    test_article.body="# Right now, polls say Joe Biden has a healthy lead over President Trump. But we’ve been here before (cue 2016), and the polls were, frankly, wrong. One man, however, was not. The historian Allan Lichtman was the lonely forecaster who predicted Mr. Trump’s victory in 2016 — and also prophesied the president would be impeached. That’s two for two. But Professor Lichtman’s record goes much deeper. In 1980, he developed a presidential prediction model that retrospectively accounted for 120 years of U.S. election history. Over the past four decades, his system has accurately called presidential victors, from Ronald Reagan in ’84 to, well, Mr. Trump in 2016.In the video Op-Ed above, Professor Lichtman walks us through his system, which identifies 13 “keys” to winning the White House. Each key is a binary statement: true or false. And if six or more keys are false, the party in the White House is on its way out.So what do the keys predict for 2020? To learn that, you’ll have to watch the video."
+    test_article.author=user
+    test_article.save()
+    return render(request, template_name='background/signup.html')
