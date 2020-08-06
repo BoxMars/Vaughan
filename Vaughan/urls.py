@@ -23,5 +23,10 @@ urlpatterns = [
     path('details/',blog_views.detail,name='details'),
     path('test/',background_views.test),
     path('admin/',background_views.admin),
+    path('profile/',background_views.profile),
+    path('table/',background_views.table),
+    path('article/',background_views.article),
+    path('login/',background_views.login),
+    path('register/',background_views.register),
 
 ]
