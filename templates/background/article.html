@@ -7,7 +7,11 @@
     <title>Dashboard - Brand</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/markdownit-edit-1.css">
+    <link rel="stylesheet" href="assets/css/markdownit-edit.css">
 </head>
 
 <body id="page-top">
@@ -106,8 +110,26 @@
             </div>
             </nav>
             <div class="container-fluid">
-                <form><input class="form-control border-0 small" type="text" placeholder="Title" style="margin-bottom: 35px;height: 77px;font-size: 31px;"><textarea class="form-control" style="margin-bottom: 20px;height: 487px;"></textarea><a class="btn btn-success btn-icon-split"
-                        role="button"><span class="text-white-50 icon"><i class="fas fa-check"></i></span><span class="text-white text">Split Button</span></a></form>
+                <form>
+                    <section class="markdown-panel markdownit">
+                        <div class="mark-header">
+                            <div class="mark-bar"><a id="btn_blod" href="#"><i class="fa fa-bold"></i></a><a href="#"><i class="fa fa-italic" id="btn_italic"></i></a><a id="btn_header" href="#"><i class="fa fa-header"></i></a><span class="sparator">|</span><a id="btn_quote"
+                                    href="#"><i class="fa fa-quote-left"></i></a><a id="btm_list_ul" href="#"><i class="fa fa-list-ul"></i></a><a id="btn_list_ol" href="#"><i class="fa fa-list-ol"></i></a><span class="sparator">|</span><a id="btn_link" href="#"><i class="fa fa-link"></i></a>
+                                <a
+                                    id="btn_image" href="#"><i class="fa fa-image"></i></a><span class="sparator">|</span><a id="btn_columns" href="#"><i class="fa fa-columns"></i></a><a id="btn_prv_code" href="#"><i class="fa fa-codepen"></i></a><a id="btn_prv_show" href="#"><i class="fa fa-arrow-left"></i></a>
+                                    <a
+                                        id="btn_prv_hide" href="#"><i class="fa fa-arrow-right"></i></a>
+                            </div>
+                            <div class="mark-amount"><span>amount:</span><span id="mark_edit_amount" class="mark-edit-amount">0</span></div>
+                        </div>
+                        <div class="row mark-panel">
+                            <div class="col edit-inner"><textarea class="form-control mark-title" id="mark_title" placeholder="Post Title"></textarea><textarea class="form-control mark-edit" id="mark_edit"></textarea></div>
+                            <div class="col preview-inner">
+                                <h1 id="mark_preview_title" placeholder="Post Title"></h1>
+                                <div id="mark_preview" class="mark-preview"></div>
+                            </div>
+                        </div>
+                    </section><a class="btn btn-success btn-icon-split" role="button"><span class="text-white-50 icon"><i class="fas fa-check"></i></span><span class="text-white text">Split Button</span></a></form>
             </div>
         </div>
         <footer class="bg-white sticky-footer">
@@ -116,11 +138,16 @@
             </div>
         </footer>
     </div><a class="border rounded d-inline scroll-to-top" href="#page-top"><i class="fas fa-angle-up"></i></a></div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/chart.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
-    <script src="assets/js/script.min.js"></script>
+    <script src="assets/js/markdownit-edit-1.js"></script>
+    <script src="assets/js/markdownit-edit-2.js"></script>
+    <script src="assets/js/markdownit-edit-3.js"></script>
+    <script src="assets/js/markdownit-edit.js"></script>
+    <script src="assets/js/theme.js"></script>
 </body>
 
 </html>
