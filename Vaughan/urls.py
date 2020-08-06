@@ -20,5 +20,6 @@ urlpatterns = [
     path('',blog_views.index,name='index'),
     path('signup/',background_views.singup,name='signup'),
     path('signin/',background_views.signin,name='signin'),
-    path('test/',background_views.test)
+    path('details/',blog_views.detail,name='details'),
+    path('test/',background_views.test),
 ]

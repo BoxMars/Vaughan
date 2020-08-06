@@ -23,7 +23,11 @@ class article(models.Model):
 
     def get_details(self):
         body=self.body
-        body=markdown.markdown(body)
+        body=markdown.markdown(body,extensions=[
+        'markdown.extensions.extra',
+        'markdown.extensions.codehilite',
+         'markdown.extensions.toc',
+        ])
         limit=150
         context={
             'title':self.title,

@@ -1,14 +1,10 @@
-{% load static %}
-<!DOCTYPE html>
-<html>
+{% extends 'blog/base.html' %}
 
-<head>
+{% load static %}
+{% block head %}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>index</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="{% static 'assets/css/Article-List.css' %}">
     <link rel="stylesheet" href="{% static 'assets/css/Footer-Basic.css' %}">
     <link rel="stylesheet" href="{% static 'assets/css/Footer-Dark.css' %}">
@@ -16,32 +12,9 @@
     <link rel="stylesheet" href="{% static 'assets/css/Navigation-with-Button.css' %}">
     <link rel="stylesheet" href="{% static 'assets/css/Navigation-with-Search.css' %}">
     <link rel="stylesheet" href="{% static 'assets/css/styles.css' %}">
-</head>
-
-<body>
-<nav class="navbar navbar-light navbar-expand-md navigation-clean-button">
-    <div class="container"><a class="navbar-brand" href="#">Box's Blackboard</a>
-        <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span
-                class="navbar-toggler-icon"></span></button>
-        <div class="collapse navbar-collapse"
-             id="navcol-1">
-            <ul class="nav navbar-nav mr-auto">
-                <li class="nav-item" role="presentation"><a class="nav-link active" href="#">Home</a></li>
-                <li class="nav-item" role="presentation"><a class="nav-link" href="#">About</a></li>
-                <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown"
-                                                 aria-expanded="false" href="#">Social Media</a>
-                    <div class="dropdown-menu" role="menu">
-                        <a class="dropdown-item" role="presentation" href="#">Github</a>
-                        <a class="dropdown-item" role="presentation" href="#">Twitter</a>
-                        <a class="dropdown-item" role="presentation" href="#">Facebook</a>
-                    </div>
-                </li>
-            </ul>
-            <span class="navbar-text actions"> <a class="login" href="#">Log In</a><a
-                    class="btn btn-light action-button" role="button" href="#">Sign Up</a></span></div>
-    </div>
-</nav>
-
+    <title>Box's Blackboard</title>
+{% endblock %}
+{% block body %}
 <div class="article-list">
     <div class="container">
         <div class="intro">
@@ -50,7 +23,7 @@
                 pellentesque ut laoreet vitae. </p>
         </div>
         <div class="row articles">
-            {% for article in articles %}
+            {% for article in articles reversed %}
                  <div class="col-sm-6 col-md-4 item">
                 <a href="#"><img class="img-fluid" src="{% static 'assets/img/desk.jpg' %}"></a>
                 <h3 class="name">{{ article.title}}</h3>
@@ -58,46 +31,7 @@
                 <p class="description">{{ article.markdown }}</p><a
                         class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a></div>
             {% endfor %}
-
-
-{#            <div class="col-sm-6 col-md-4 item">#}
-{#                <a href="#"><img class="img-fluid" src="{% static 'assets/img/desk.jpg' %}"></a>#}
-{#                <h3 class="name">Article Title</h3>#}
-{#                <p class="author">Article Title</p>#}
-{#                <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent#}
-{#                    aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a#}
-{#                        class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a></div>#}
-{#            <div class="col-sm-6 col-md-4 item">#}
-{#                <a href="#"><img class="img-fluid" src="{% static 'assets/img/desk.jpg' %}"></a>#}
-{#                <h3 class="name">Article Title</h3>#}
-{#                <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent#}
-{#                    aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a#}
-{#                        class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a></div>#}
         </div>
     </div>
 </div>
-
-
-
-
-<div class="text-capitalize border rounded footer-basic">
-    <footer>
-        <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i
-                class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a
-                href="#"><i class="icon ion-social-facebook"></i></a></div>
-        <ul class="list-inline">
-            <li class="list-inline-item"><a href="#">Home</a></li>
-            <li class="list-inline-item"><a href="#">Services</a></li>
-            <li class="list-inline-item"><a href="#">About</a></li>
-            <li class="list-inline-item"><a href="#">Terms</a></li>
-            <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
-        </ul>
-        <p class="copyright">Company Name © 2017</p>
-    </footer>
-</div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
-
-</body>
-
-</html>
+{% endblock %}

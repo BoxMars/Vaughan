@@ -1,0 +1,34 @@
+{% extends 'blog/base.html' %}
+{% load static %}
+
+{% block head %}
+
+    <title>{{ article.title}}</title>
+    <style>
+    .cdate{text-transform:uppercase;padding:4px 0 4px 10px;margin-left:10px;}
+    </style>
+{% endblock %}
+{% block body %}
+    <div class="article-clean">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-xl-8 offset-lg-1 offset-xl-2">
+                    <div class="intro">
+                        <h1 class="text-center">{{ article.title}}</h1>
+                        <p class="text-center">
+                            <span class="by">by</span>
+                            <a href="#">{{ article.author}}</a>
+
+                        </p>
+                        <p class="text-center">
+                            <span class="cdate">Update: {{ article.updated  |date:"Y-m-d" }}</span><span class="date"> Create: {{ article.created  |date:"Y-m-d" }} </span>
+                        </p>
+                    </div>
+                    <div class="text">
+                        <p class="description">{{ article.full_markdown|safe }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
