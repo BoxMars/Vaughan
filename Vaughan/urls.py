@@ -22,4 +22,6 @@ urlpatterns = [
     path('signin/',background_views.signin,name='signin'),
     path('details/',blog_views.detail,name='details'),
     path('test/',background_views.test),
+    path('admin/',background_views.admin),
+
 ]

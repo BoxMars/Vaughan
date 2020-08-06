@@ -25,7 +25,23 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="156dcc9e-52f5-4b36-84d9-aa0a8ae9b550" name="Default Changelist" comment="" />
+    <list default="true" id="156dcc9e-52f5-4b36-84d9-aa0a8ae9b550" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/background/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/treefile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vaughan/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Vaughan/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/background/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/background/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/img/beach.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/img/desk.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/background/article.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/background/article.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/background/assets/css/styles.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/background/assets/css/styles.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/background/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/background/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/background/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/background/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/background/table.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/background/table.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/base.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,15 +86,15 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Vaughan\templates\background" />
+      <recent name="D:\Vaughan\templates" />
       <recent name="D:\Vaughan\static\assets\css" />
       <recent name="D:\Vaughan\templates\blog" />
       <recent name="D:\Vaughan\static" />
-      <recent name="D:\Vaughan" />
-      <recent name="D:\Vaughan\blog" />
     </key>
   </component>
   <component name="RunManager">
@@ -133,6 +149,7 @@
       <workItem from="1596687410356" duration="3171000" />
       <workItem from="1596718377315" duration="1224000" />
       <workItem from="1596719750802" duration="16000" />
+      <workItem from="1596729838666" duration="2735000" />
     </task>
     <task id="LOCAL-00001" summary="background app and some view function">
       <created>1595777180956</created>
@@ -230,6 +247,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595849422621" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1596732048103">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1596732048103" />
     <state x="662" y="74" width="596" height="891" key="find.popup" timestamp="1595826755036">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

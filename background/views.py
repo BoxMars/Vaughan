@@ -70,7 +70,18 @@ def signin(request):
             else:
                 context['text']='Wrong Password'
                 return render(request, template_name='background/signin.html', context=context)
-
+def admin(request):
+    return render(request, template_name='background/index.html')
+def profile(request):
+    return render(request, template_name='background/profile.html')
+def table(request):
+    return render(request, template_name='background/table.html')
+def article(request):
+    return render(request, template_name='background/article.html')
+def login(request):
+    return render(request, template_name='background/login.html')
+def register(request):
+    return render(request, template_name='background/register.html')
 def test(request):
     user=models.user.objects.filter(username='Box').first()
     test_article=models.article()
