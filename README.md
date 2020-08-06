@@ -9,7 +9,7 @@
 ```
 ---
 ```
-D:.
+
 │  db.sqlite3
 │  index.xd
 │  LICENSE
