@@ -26,27 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="156dcc9e-52f5-4b36-84d9-aa0a8ae9b550" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/blog/assets/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog/assets/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog/assets/css/Article-Clean.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog/assets/css/Article-List.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog/assets/css/Footer-Basic.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog/assets/css/Footer-Dark.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog/assets/css/Navigation-Clean.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog/assets/css/Navigation-with-Button.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog/assets/css/Navigation-with-Search.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog/assets/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog/assets/img/beach.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog/assets/img/building.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog/assets/img/desk.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog/assets/img/loft.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog/assets/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog/detail.bsdesign" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vaughan/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Vaughan/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/background/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/background/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/index.html" afterDir="false" />
     </list>
@@ -155,6 +136,7 @@
       <workItem from="1596627203489" duration="2232000" />
       <workItem from="1596636623995" duration="3808000" />
       <workItem from="1596687410356" duration="3171000" />
+      <workItem from="1596718377315" duration="1224000" />
     </task>
     <task id="LOCAL-00001" summary="background app and some view function">
       <created>1595777180956</created>

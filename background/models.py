@@ -30,6 +30,7 @@ class article(models.Model):
         ])
         limit=150
         context={
+            'id':self.id,
             'title':self.title,
             'created':self.created,
             'updated':self.updated,
@@ -42,8 +43,9 @@ class article(models.Model):
         }
         if len(self.body)>limit:
             context['body']=context['body'][:limit]
+
+        context['markdown']=re.sub('\<[^>]*\>','',context['markdown'])
         if len(context['markdown']) > limit:
             context['markdown'] = context['markdown'][:limit]
-        context['markdown']=re.sub('\<[^>]*\>','',context['markdown'])
-        print(context['markdown'])
+        # print(context['markdown'])
         return context
